@@ -1,3 +1,59 @@
-body{
 
+/* Common css */
+body{
+   margin: 0;
 }
+
+
+/* Start the navigation section */
+header{
+   background-color: #562EFF;
+}
+
+ nav{
+   height: 90px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+
+.icons{
+   display: flex;
+   gap: 20px;
+}
+
+
+.icons h3{
+   color: white;
+   font-weight: 400;
+   font-size: large;
+}
+
+
+.icons img{
+   height: 51px;
+   width: 40.42px;
+   margin-top: 5px;
+}
+
+
+.menu{
+   display: flex;
+   gap: 20px;
+}
+
+.menu h4{
+   color: white;
+   font-weight: 400;
+   font-size: large;
+}
+
+
+.menu img{
+   width: 51px;
+   height: 51px;
+   margin-top: 7px; 
+}
+
+/* End the navigation section */
