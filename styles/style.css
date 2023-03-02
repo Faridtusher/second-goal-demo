@@ -1,14 +1,29 @@
 
-/* Common css */
+/* Import the google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*start Common style */
 body{
    margin: 0 auto;
+   background-color: #9F9F9F;
+   font-family: 'Poppins', sans-serif;
 }
+
+ .common-title{
+   color: #562EFF;
+   margin-left: 40px;
+}
+
+
+/* End the common style */
+
+
 
 
 /* Start the navigation section */
 header{
    background-color: #562EFF;
-   margin-bottom: 30px;
+   margin-bottom: 50px;
 }
 
  nav{
@@ -18,12 +33,10 @@ header{
    align-items: center;
 }
 
-
 .icons{
    display: flex;
    gap: 20px;
 }
-
 
 .icons img{
    height: 51px;
@@ -33,8 +46,7 @@ header{
 
  .common {
    list-style: none;
-   margin-top: 10px;
-   
+   margin-top: 10px;   
 }
 
  .common a{
@@ -49,39 +61,101 @@ header{
    color: red; 
 }
 
-
 .menu{
    display: flex;
    gap: 20px;
 }
 
-
-
 .menu img{
    width: 51px;
-   height: 51px;
-  
+   height: 51px; 
 }
-
 /* End the navigation section */
 
 
-/* Start the players */
+
+/* Start the players style*/
+main{
+display: flex;
+justify-content: center;
+}
+
+
+.top-container{
+   background-color: #FFFFFF;
+   width: 870px;
+   border-radius: 5px;
+}
+
 
 .players-container{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   margin-bottom: 50px;  
+   row-gap: 30px;
 }
 
-.player-details{
+
+.player-info{
    display: flex;
-   justify-content: center;
-   gap: 20px;
-   margin-top: 20px;
+   align-items:center;
+   column-gap: 20px;
+   margin-left: 40px; 
 }
 
-.player-details img{
+
+.player-info img{
    width: 56px;
    height: 56px;
+}
+/* End the players style*/
+
+
+
+/* Start the Blog style*/
+.blogs-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   row-gap: 30px;
+}
+
+
+.blog-info{
+   display: flex;
+   column-gap: 20px;
+   margin-left: 40px;
+}
+
+
+.blog-info img{
+   width: 177px;
+   height: 117px;
+}
+
+
+.done-by{
+   color: #562EFF;
+   font-size: 14px;
+}
+/* End of the Blog style*/
+
+
+/* Start the latest course style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hide{
+   /* display: none; */
 }
